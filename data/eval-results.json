@@ -1,0 +1,23 @@
+{
+  "n": 20,
+  "results": [
+    {
+      "mode": "keyword",
+      "Recall@5": 0.75,
+      "MRR@10": 0.7121,
+      "nDCG@10": 0.7378
+    },
+    {
+      "mode": "vector",
+      "Recall@5": 0.8,
+      "MRR@10": 0.7539,
+      "nDCG@10": 0.7848
+    },
+    {
+      "mode": "hybrid",
+      "Recall@5": 0.85,
+      "MRR@10": 0.7958,
+      "nDCG@10": 0.814
+    }
+  ]
+}

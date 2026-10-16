@@ -1,9 +1,10 @@
-import type { NextConfig } from "next";
-
-const nextConfig: NextConfig = {
-  /* config options here */
-  cacheComponents: true,
-  partialPrefetching: true,
+/** @type {import('next').NextConfig} */
+const nextConfig = {
+  experimental: {
+    outputFileTracingIncludes: {
+      "/api/**/*": ["./data/bm25-index.json"],
+    },
+  },
 };
 
 export default nextConfig;
